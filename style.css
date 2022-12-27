@@ -3,6 +3,7 @@ body {
   font-size: 15px;
   background-color: hsl(212, 45%, 89%);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -20,6 +21,7 @@ body {
   border: none;
   border-radius: 22px;
   background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 10px 20px hsla(218, 44%, 22%, 0.1);
 }
 
 img {
@@ -46,13 +48,10 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: fixed;
+  bottom: 0px;
+  padding: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-/* @media screen and (min-width: 500px) {
-  .container {
-    width: 300px;
-  }
-} */
