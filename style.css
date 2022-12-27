@@ -9,6 +9,7 @@ body {
   height: 100vh;
   padding: 1rem;
   overflow: hidden;
+  margin: 0;
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 300px;
+  width: 295px;
   padding: 1rem;
   border: none;
   border-radius: 22px;
@@ -45,11 +46,13 @@ p {
   color: hsl(220, 15%, 55%);
 }
 
+footer {
+  margin: 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
-  position: fixed;
-  bottom: 0px;
   padding: 1rem;
 }
 .attribution a {
